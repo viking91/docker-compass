@@ -14,5 +14,5 @@ compass () {
         --volume /etc/group:/etc/group:ro \
         --volume $(pwd):/app \
         -w /app \
-        docker-compass compass "$@"
+        vslklv/docker-compass compass "$@"
 }
